@@ -20,7 +20,7 @@ func foo() {
 }
 
 func bar() {
-	fmt.Println("and the we exited!")
+	fmt.Println("and the we exited!!!")
 }
 
 // Control Flow:
