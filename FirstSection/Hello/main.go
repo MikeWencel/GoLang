@@ -1,5 +1,7 @@
 package main
 
+// Jest to pakiet, z które korzystam
+// Zapisany jest tam gotowy kod, który mogą użyć
 import "fmt"
 
 func main() {
