@@ -46,5 +46,5 @@ func main() {
 
 	//Sprint it's saves to variable, after that you can print it
 	s := fmt.Sprintf("%#x\t%b\t%x\n", num, num, num)
-	fmt.Println("String printing:", s)
+	fmt.Println("String printing: ", s)
 }
