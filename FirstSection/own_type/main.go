@@ -19,4 +19,6 @@ func main() {
 	fmt.Printf("%T\n", a)
 	fmt.Println(b)
 	fmt.Printf("%T\n", b)
+
+	// We can't do a = b, couse a is INT, and b is HOT DOG
 }
