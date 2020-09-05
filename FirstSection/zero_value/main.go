@@ -31,7 +31,7 @@ func main() {
 	//hexadecimal of num = 9 with 0 in front
 	fmt.Printf("%#x\n", num)
 
-	fmt.Printf("%#x\t%b\t%x", num, num, num)
+	fmt.Printf("%#x\t%b\t%x\n", num, num, num)
 
 	// \a	Alert or bell
 	// \b	Backspace
@@ -43,4 +43,8 @@ func main() {
 	// \v	Vertical tab
 	// \'	Single quote (only in rune literals)
 	// \"	Double quote (only in string literals)
+
+	//Sprint it's saves to variable, after that you can print it
+	s := fmt.Sprintf("%#x\t%b\t%x\n", num, num, num)
+	fmt.Println("String printing:", s)
 }
