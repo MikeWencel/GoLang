@@ -1,0 +1,46 @@
+Computers run on electricity
+
+Electricity can be ON or OFF
+
+
+Coding schemes
+
+1 porch light => 2 messages
+2 porch light => 4 messages
+3 porch light => 8 messages
+4 porch light => 16 messages
+5 porch light => 32 messages
+6 porch light => 64 messages
+7 porch light => 128 messages
+8 porch light => 256 messages
+
+
+Binary - means to choices!!!
+
+
+on on (1 1)  => Let's party!
+on off (1 0) => movie night!
+off on (0 1) ==> study night!
+off off(0 0) ==> sleeping
+
+Power Symbol represent 0 button and 1 as ON
+
+
+Binary digit single 0 or 1
+
+BInary DIgits => Bits
+
+
+Coding schemes (First now less popular) => ascii (aski)
+Coding schemes => UTF - 8 (most popular)
+
+
+Measuring Bits
+
+1 bit 
+
+8 bits = byte
+
+1024 = 1 kb
+1000 = 1 mb
+1000 mb = 1 gb
