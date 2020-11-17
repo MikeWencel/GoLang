@@ -6,9 +6,9 @@ import (
 
 func main() {
 	for i := 0; i < 5; i++ {
-		fmt.Println("first loop", i)
-		for j := 0; j < 10; j++ {
-			fmt.Println("second loop", j)
+		fmt.Printf("The outer loop: %d\n", i)
+		for j := 0; j < 3; j++ {
+			fmt.Printf("\t The inner loop: %d\n", j)
 		}
 	}
 
