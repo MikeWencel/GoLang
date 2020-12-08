@@ -29,5 +29,9 @@ func main() {
 	y := []int{202, 303, 13, 12}
 	x = append(x, y...)
 	fmt.Println(x)
+	fmt.Println("********************")
+	x = append(x[:0], x[5:]...)
+	fmt.Println(x)
+	fmt.Println("********************")
 
 }
