@@ -22,4 +22,12 @@ func main() {
 		fmt.Println(x[i])
 	}
 	fmt.Println("********************")
+
+	x = append(x, 12)
+	fmt.Println(x)
+
+	y := []int{202, 303, 13, 12}
+	x = append(x, y...)
+	fmt.Println(x)
+
 }
